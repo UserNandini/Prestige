@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap');
+
+body {
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+    overflow-x: scroll;
+}
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    margin-bottom: 30px;
+    /* flex-direction: row;
+    margin: 30px; */
+
+    /* background-color: #5F7161; */
+}
+
+.navMenu {
+    float: right;
+}
+
+.navbarLogo {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: auto;
+}
+
+.navItems {
+    display: flex;
+    float: right;
+
+}
+
+li {
+    list-style: none;
+    font-family: "Lato";
+    margin-left: 10px;
+}
+
+i {
+    width: 50px;
+    height: 50px;
+}
+
+.heading {
+    font-family: "Lato";
+    font-weight: bolder;
+    padding-left: 40px;
+}
+
+.centerSelect {
+
+    text-align: center;
+    font-family: "Lato";
+    font-size: 25px;
+
+
+
+}
+
+/* select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+} */
+#song {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    position: relative;
+    flex-flow: column wrap;
+
+    margin-left: 200px;
+    margin-right: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstrow {
+    display: flex;
+    width: 100vw;
+    text-align: center;
+    height: auto;
+
+    /* margin-left: 420px; */
+    padding: 10px;
+    position: relative;
+
+}
+
+.secondrow {
+    display: flex;
+    width: 100vw;
+    text-align: center;
+    height: auto;
+    /* margin-left: 420px; */
+    padding: 10px;
+    position: relative;
+}
+
+.selectChoice {
+    margin: 30px;
+}
+
+h2 {
+    font-family: "Lato";
+    font-size: 20px;
+    color:#87805E;
+    text-align: left;
+}
+
+.optionSelect {
+    padding: 15px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.head {
+    text-align: center;
+    padding: 50px;
+}
+
+.bottomcontent {
+    display: flex;
+}
+
+.one {
+    background-color: #FD841F;
+
+}
+
+.two {
+    background-color: #87A2FB;
+}
+
+.three {
+    background-color: #7DCE13;
+}
+
+.four {
+    background-color:#C7BEA2;
+}
+
+.bottomdivision {
+    background-color:#EEF1FF;
+}
+
+.insideBotDiv {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.bottomcontent {
+    display: flex;
+    position: relative;
+
+    margin-left: 200px;
+    margin-right: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+#bot {
+    width: 250px;
+    margin: 30px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.insideBotDivHeading {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.insideBotDivPara {
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: "Lato";
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Lato";
+    opacity: 0.7;
+}
