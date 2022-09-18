@@ -1,5 +1,6 @@
 ## Prestige Group Reports Page
-- Git clone the repository to the directory
+ #### instructions for executing code
+- Git clone the repository to a directory
 - Open the cloned repository with the Visual Studio Code editor.
 - Now run the code with live server on chrome.
-- Explore the opened webpage.
+- Explore the opened chrome page.
